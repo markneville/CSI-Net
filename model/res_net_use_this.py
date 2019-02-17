@@ -170,7 +170,7 @@ class ResNet(nn.Module):
 
 
 
-    def make_layer(self, block, out_channels, bclocks, stride=1):
+    def make_layer(self, block, out_channels, blocks, stride=1):
         downsample = None
         if (stride != 1) or (self.in_channels != out_channels*block.expansion):
             downsample = nn.Sequential(
