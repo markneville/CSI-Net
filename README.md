@@ -7,7 +7,7 @@ This code can achieve multi-channel, time-serial signal classification  as well 
 We also applied this code with little modification to do motor fault diagnosis in engineering industry. Paper has been submitted to the Transactions on Industrial Electronics with title of *Multi-scale Residual Learning for End-to-end Motor Fault Diagnosis Under Nonstationary Conditions* [Code is here](https://github.com/geekfeiw/Multi-Scale-1D-ResNet). We are designing a light-weighted version for sensing tasks with COTS RFID (under progress). We believe this generic deep networks can solve more sensory data tasks. 
 
 ## Test Environment
-1. python 3..7.1
+1. python 3.7.1
 2. pytorch 0.4.1
 3. cuda 10.0
 4. cudnn 7.4
